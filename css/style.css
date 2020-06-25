@@ -1,0 +1,25 @@
+/* header */
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 400px
+}
+
+/* main */
+.shop {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.shop div {
+  width: auto;
+  margin: 0 auto;
+}
+
+.shop img {
+  width: 200px;
+}
+
+/* .shop:hover img {
+  width: auto;
+} */
