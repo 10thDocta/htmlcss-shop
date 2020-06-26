@@ -10,6 +10,7 @@ body {
 
 /* header */
 header img {
+  /* metto display: block altrimenti il margin: auto non funzionerebbe */
   display: block;
   margin: -50px auto;
   width: 300px
@@ -55,7 +56,9 @@ header img {
   position: absolute;
   bottom: 0;
   right: 50%;
-  padding-bottom: 8px
+  padding-bottom: 8px;
+  font-size: 20px;
+  color: red;
 }
 
 .img-list:hover .cuore {
