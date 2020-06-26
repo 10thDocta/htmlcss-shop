@@ -34,7 +34,7 @@ header img {
   margin: 0 1px;
 }
 
-.img-list:nth-child(2) .sconto {
+.img-list:nth-child(even) .sconto {
   background-color: red
 }
 
@@ -55,10 +55,13 @@ header img {
   display: none;
   position: absolute;
   bottom: 0;
-  right: 50%;
   padding-bottom: 8px;
   font-size: 20px;
   color: red;
+  /* right: 50%; */
+  /* al posto di right:50% uso queste impostazioni sotto perché lo centrano correttamente, dicendo che deve essere allineato centralmente, dandogli una dimensione pari al 100% del suo contenitore genitore  */
+  text-align: center;
+  width: 100%;
 }
 
 .img-list:hover .cuore {
